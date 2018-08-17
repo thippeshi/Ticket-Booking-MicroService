@@ -8,6 +8,6 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 public class MovieTicketBookingApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MovieTicketBookingApplication.class, args);
+		 SpringApplication.run(MovieTicketBookingApplication.class, args);
 	}
 }
