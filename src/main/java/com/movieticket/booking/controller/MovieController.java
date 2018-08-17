@@ -21,7 +21,7 @@ import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
 @RestController
-//@Api(value = "movieticketbooking", tags = "Movie Ticket Booking - V1", description = "V1 operations", produces = MediaType.APPLICATION_JSON_VALUE)
+@Api(value = "movieticketbooking", tags = "Movie Ticket Booking - V1", description = "V1 operations", produces = MediaType.APPLICATION_JSON_VALUE)
 public class MovieController {
 
 	private static final Logger log = LoggerFactory.getLogger(MovieController.class);
